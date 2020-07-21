@@ -1,53 +1,48 @@
-# _new template_
+# _PROJECT NAME_
 
-#### _{Brief description of application}, 2020 ver 1.0_
+#### _SHORT DESCRIPTION_
 
-#### By _Ian Gregg & (Co author)_
-[new-template-for-code-C]()
+#### By _**Ian Scott**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Long description._
+
+### Specifications
+| | Spec | Input | Output | isComplete |
+| :-------------     | :-------------     | :------------- | :------------- |:------------- |
+|1.|  |  |  | _False_ |
+|2.|  |  |  |_False_  |
+|3.|  |  |  |_False_  |
 
 ## Setup/Installation Requirements
 
-* to clone this content, copy the url provided by the 'clone or download' button in GitHub
-* in command line use the command 'git clone (GitHub url)'
-* open the program in a code editor
-* you will need [.NET] (https://dotnet.microsoft.com/download/dotnet-core/2.2) installed to run this program 
-* then install dotnet script REPL by typing 'dotnet tool installl -g dotnet-script' in the command line
-* type dotnet build in the command line to compile the code
-* create a .gitignore file and store the bin and obj folders in .gitignore
-* type dotnet run in the command line to run the program
-
-__
-
-## Specs
-
-| Behavior    | Input | Output |
-| :---------- | ----- | -----: |
-| behavior 1 |  |  |
-| behavior 2 |  |  |
-| behavior 3 |  |  |
-| behavior 4 |  |  |
+1. This program utilizes .NET version 3.1, and requires this framework to be pre-installed:
+    * Please go to https://dotnet.microsoft.com/download/dotnet-core/2.2 and install the SDK   version 2.2 or greater patch version, but do not upgrade to a higher minor version number.
+2. Clone this repository onto your computer: https://github.com/...
+3. In your preferred terminal window, navigate into PROJECTNAME.SOLUTIONS/PROJECTNAME using cd (i.e. cd desktop/PROJECTNAME.SOLUTIONS/PROJECTNAME) and open the project with your preferred code editor.
+4. Run the following terminal command: $ dotnet restore
+5. To initiate this program, run the command: $ dotnet run
+6. To run the test suite included with this project, within the terminal navigate into PROJECTNAME.TESTS and run the following commands:
+    * $ dotnet restore
+    * $ dotnet test
 
 
 ## Known Bugs
 
-_No known bugs_
+_ _
 
 ## Support and contact details
 
-_Contact Ian Gregg: <iangregg188@gmail.com>_
+_Contact me at...._
 
 ## Technologies Used
 
-_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, and Mac, C#, .Net_
+- C#
+- .NET
 
 ### License
 
-Copyright (c) 2020 **_Ian Gregg_**
+_This software is licensed under the MIT license_
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Copyright (c) 2020 **Ian Scott**.
