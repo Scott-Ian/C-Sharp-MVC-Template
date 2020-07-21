@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using ProjectList.Models;
+using ProjectName.Models;
 using System.Collections.Generic;
 
 namespace ProjectName.Controllers
